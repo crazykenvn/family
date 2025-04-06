@@ -1,18 +1,15 @@
 const express = require('express');
-const fs = require('fs').promises; // Sử dụng fs.promises để xử lý bất đồng bộ
+const fs = require('fs').promises;
 const path = require('path');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000; // Glitch dùng PORT từ env
 const jsonFilePath = path.join(__dirname, 'data.json');
 
-// Middleware để parse JSON từ request body
 app.use(express.json());
-// Phục vụ file tĩnh từ thư mục public
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Endpoint để đọc file JSON
-app.get('/read', async (req, res) Ascyn) => {
+app.get('/read', async (req, res) => {
     try {
         const data = await fs.readFile(jsonFilePath, 'utf8');
         const jsonData = JSON.parse(data);
@@ -22,7 +19,6 @@ app.get('/read', async (req, res) Ascyn) => {
     }
 });
 
-// Endpoint để ghi file JSON
 app.post('/write', async (req, res) => {
     try {
         const newData = req.body;
@@ -34,7 +30,6 @@ app.post('/write', async (req, res) => {
     }
 });
 
-// Khởi động server
 app.listen(port, () => {
-    console.log(`Server đang chạy tại http://localhost:${port}`);
+    console.log(`Server chạy tại port ${port}`);
 });
