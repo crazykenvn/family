@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng đọc/ghi JSON</title>
+</head>
+<body>
+    <h1>Ứng dụng đọc/ghi JSON</h1>
+    
+    <h2>Đọc dữ liệu</h2>
+    <button onclick="readJson()">Đọc JSON</button>
+    <pre id="jsonOutput"></pre>
+
+    <h2>Ghi dữ liệu</h2>
+    <textarea id="jsonInput" rows="10" cols="50">
+{
+    "name": "Nguyen Van A",
+    "age": 25,
+    "city": "Hanoi"
+}
+    </textarea>
+    <br>
+    <button onclick="writeJson()">Ghi JSON</button>
+
+    <script>
+        async function readJson() {
+            try {
+                const response = await fetch('/read');
+                const data = await response.json();
+                document.getElementById('jsonOutput').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                console.error('Lỗi:', error);
+            }
+        }
+
+        async function writeJson() {
+            try {
+                const input = document.getElementById('jsonInput').value;
+                const data = JSON.parse(input); // Kiểm tra JSON hợp lệ
+                const response = await fetch('/write', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                const result = await response.json();
+                alert(result.message);
+            } catch (error) {
+                alert('Lỗi: Dữ liệu JSON không hợp lệ hoặc không thể ghi');
+                console.error('Lỗi:', error);
+            }
+        }
+    </script>
+</body>
+</html>
