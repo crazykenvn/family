@@ -253,6 +253,18 @@
                               "level": 4,
                               "birthdeath": "",
                               "thutu": 1
+                            },
+                            {
+                              "id": "P168",
+                              "name": "Chuật",
+                              "title": "",
+                              "gender": "female",
+                              "outsider": "true",
+                              "isalive": "",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 2
                             }
                           ],
                           [
@@ -1614,6 +1626,18 @@
                               "level": 4,
                               "birthdeath": "",
                               "thutu": 1
+                            },
+                            {
+                              "id": "P169",
+                              "name": "Hợi",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "true",
+                              "isalive": "false",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 2
                             }
                           ],
                           [
@@ -1753,6 +1777,18 @@
                               "level": 4,
                               "birthdeath": "",
                               "thutu": 1
+                            },
+                            {
+                              "id": "P170",
+                              "name": "Lựu",
+                              "title": "",
+                              "gender": "female",
+                              "outsider": "true",
+                              "isalive": "",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 2
                             }
                           ],
                           [
@@ -1908,6 +1944,18 @@
                               "level": 4,
                               "birthdeath": "",
                               "thutu": 1
+                            },
+                            {
+                              "id": "P171",
+                              "name": "Băng",
+                              "title": "",
+                              "gender": "female",
+                              "outsider": "true",
+                              "isalive": "",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 2
                             }
                           ],
                           [
@@ -2019,6 +2067,18 @@
                               "level": 4,
                               "birthdeath": "",
                               "thutu": 1
+                            },
+                            {
+                              "id": "P172",
+                              "name": "Hương",
+                              "title": "",
+                              "gender": "female",
+                              "outsider": "true",
+                              "isalive": "",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 2
                             }
                           ]
                         ],
