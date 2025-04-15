@@ -42,6 +42,9 @@ function initOrgChart(data) {
         'zoom': true,
         'exportButton': true,
         'exportFilename': 'MyOrgChart',
+        //'direction': 'l2r',
+        'verticalLevel': 5,
+        //'visibleLevel': 6,
         'createNode': function ($node, data) {
             if (data.gender === 'female') {
                 $node.addClass('female');
