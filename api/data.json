@@ -1,0 +1,135 @@
+[
+  [
+    {
+      "id": "P029",
+      "name": "Root",
+      "title": "",
+      "gender": "male",
+      "outsider": "",
+      "isalive": "",
+      "children": [
+        [
+          {
+            "id": "P018",
+            "name": "Phẩm",
+            "title": "",
+            "gender": "male",
+            "outsider": "",
+            "isalive": "",
+            "children": [
+              [
+                {
+                  "id": "P001",
+                  "name": "?",
+                  "title": "?",
+                  "gender": "male",
+                  "outsider": "",
+                  "isalive": "false",
+                  "children": [
+                    [
+                      {
+                        "id": "P002",
+                        "name": "Sủng",
+                        "title": "Ông",
+                        "gender": "male",
+                        "outsider": "",
+                        "isalive": "false",
+                        "children": [],
+                        "level": 3
+                      },
+                      {
+                        "id": "P003",
+                        "name": "Hiển",
+                        "title": "Bà",
+                        "gender": "female",
+                        "outsider": "true",
+                        "isalive": "false",
+                        "children": [
+                          [
+                            {
+                              "id": "P005",
+                              "name": "Sỉnh",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "",
+                              "children": [
+                                [
+                                  {
+                                    "id": "P022",
+                                    "name": "Siêng",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5
+                                  },
+                                  {
+                                    "id": "P025",
+                                    "name": "Tươi",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P023",
+                                    "name": "Song",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P024",
+                                    "name": "Xuyến",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P028",
+                                    "name": "test",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5
+                                  }
+                                ]
+                              ],
+                              "level": 4
+                            }
+                          ]
+                        ],
+                        "level": 3
+                      }
+                    ]
+                  ],
+                  "level": 2
+                }
+              ]
+            ],
+            "level": 1
+          }
+        ]
+      ],
+      "level": 0
+    }
+  ]
+]
