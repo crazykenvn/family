@@ -4,10 +4,14 @@ const fss = require('fs'); // Để dùng writeFileSync
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '..')));
+// Route mặc định
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', 'index.html'));
+});
 app.use('/css', express.static(path.join(__dirname, 'css'))); // Thư mục css
 app.use('/js', express.static(path.join(__dirname, 'js')));   // Thư mục js
 app.use('/webfonts', express.static(path.join(__dirname, 'webfonts')));   // Thư mục fonts
