@@ -32,7 +32,12 @@ function renderFamilyTree(data) {
     });
     container.appendChild(ul);
 }
-
+var nodeTemplate = function(data) {
+    return `
+      <div class="title">${data.title} ${data.name}</div>
+      <div class="content">${data.birthdeath}</div>
+    `;
+  };
 function initOrgChart(data) {
     oc = $('#chart-container').orgchart({
         'data': data,
@@ -42,6 +47,7 @@ function initOrgChart(data) {
         'zoom': true,
         'exportButton': true,
         'exportFilename': 'MyOrgChart',
+        'nodeTemplate': nodeTemplate,
         'createNode': function ($node, data) {
             if (data.gender === 'female') {
                 $node.addClass('female');
@@ -56,7 +62,6 @@ function initOrgChart(data) {
             if (data.ex) {
                 $node.children('.content').prepend(`<i class="property-tag fa-solid fa-heart-crack"></i>`);
             }
-            //$node[0].id = getId();
         }
     });
     attachEventListeners(); // Gắn các sự kiện sau khi khởi tạo
@@ -79,18 +84,8 @@ async function fetchFamilyTree() {
 }
 
 async function addPerson(newPerson, parentId = '', siblingId = '', childId = '') {
-    /* const newPerson = {
-        name: name,//document.getElementById('name').value,
-        title: document.getElementById('title').value,
-        gender: document.getElementById('gender').value,
-        outsider: document.getElementById('outsider').value,
-        isalive: document.getElementById('isalive').value
-    }; */
-    //const parentId = document.getElementById('parentId').value;
-    //const siblingId = document.getElementById('siblingId').value;
-
-    if (!newPerson.name || !newPerson.gender) {
-        alert('Vui lòng điền tên và giới tính!');
+    if (!newPerson.name) {
+        alert('Vui lòng điền tên!');
         return;
     }
 
@@ -136,14 +131,6 @@ async function editPerson(updatedPerson) {
         return;
     }
     const id = selectedNode.data('nodeData').id;
-
-    // const updatedPerson = {
-    //     name: prompt('Nhập tên mới:', selectedNode.data('nodeData').name) || selectedNode.data('nodeData').name,
-    //     title: prompt('Nhập chức danh mới:', selectedNode.data('nodeData').title) || selectedNode.data('nodeData').title,
-    //     gender: prompt('Nhập giới tính (male/female):', selectedNode.data('nodeData').gender) || selectedNode.data('nodeData').gender,
-    //     outsider: prompt('Ngoài gia đình? (true/false):', selectedNode.data('nodeData').outsider) || selectedNode.data('nodeData').outsider,
-    //     isalive: prompt('Còn sống? (true/false):', selectedNode.data('nodeData').isalive ? '' : 'false') || (selectedNode.data('nodeData').isalive ? '' : 'false')
-    // };
 
     try {
         const response = await fetch(`/api/edit-person/${id}`, {
@@ -289,10 +276,12 @@ function attachEventListeners() {
     $('#btn-add-nodes').on('click', function () {
         var $chartContainer = $('#chart-container');
         var nodeVals = [];
-        const title = document.getElementById('title').value;
+        const title = '';//document.getElementById('title').value;
         const gender = document.getElementById('gender').value;
-        const outsider = document.getElementById('outsider').value;
+        const outsider = document.querySelector('input[name="node-type"]:checked')?.value === 'outsider' ? 'true' : '';
+        //const outsider = document.getElementById('outsider').value;
         const isalive = document.getElementById('isalive').value;
+        const birthdeath = document.getElementById('birthdeath').value;
         $('#new-nodelist').find('.new-node').each(function (index, item) {
             var validVal = item.value.trim();
             if (validVal.length) {
@@ -325,7 +314,6 @@ function attachEventListeners() {
                     'exportButton': true,
                     'exportFilename': 'MyOrgChart',
                     'createNode': function ($node, data) {
-                        //$node[0].id = getId();
                     }
                 });
             } else {
@@ -342,7 +330,8 @@ function attachEventListeners() {
                             title: title,
                             gender: gender,
                             outsider: outsider,
-                            isalive: isalive
+                            isalive: isalive,
+                            birthdeath: birthdeath
                         },
                         parentId: parentId,
                         siblingId: siblingId,
@@ -371,7 +360,8 @@ function attachEventListeners() {
                         title: title,
                         gender: gender,
                         outsider: outsider,
-                        isalive: isalive
+                        isalive: isalive,
+                        birthdeath: birthdeath
                     },
                     parentId: parentId,
                     siblingId: siblingId
@@ -397,7 +387,8 @@ function attachEventListeners() {
                         title: title,
                         gender: gender,
                         outsider: outsider,
-                        isalive: isalive
+                        isalive: isalive,
+                        birthdeath: birthdeath
                     },
                     parentId: parentId,
                     siblingId: siblingId
@@ -423,7 +414,8 @@ function attachEventListeners() {
                             title: title,
                             gender: gender,
                             outsider: outsider,
-                            isalive: isalive
+                            isalive: isalive,
+                            birthdeath: birthdeath
                         },
                         parentId: parentId,
                         siblingId: siblingId
@@ -446,7 +438,8 @@ function attachEventListeners() {
                             title: title,
                             gender: gender,
                             outsider: outsider,
-                            isalive: isalive
+                            isalive: isalive,
+                            birthdeath: birthdeath
                         },
                         parentId: parentId,
                         siblingId: siblingId
@@ -463,16 +456,18 @@ function attachEventListeners() {
 
     $('#btn-update-nodes').on('click', function () {
         const name = document.getElementById('selected-node').value;
-        const title = document.getElementById('title').value;
+        const title = '';//document.getElementById('title').value;
         const gender = document.getElementById('gender').value;
-        const outsider = document.getElementById('outsider').value;
+        const outsider = document.querySelector('input[name="node-type"]:checked')?.value === 'outsider' ? 'true' : '';//document.getElementById('outsider').value;
         const isalive = document.getElementById('isalive').value;
+        const birthdeath = document.getElementById('birthdeath').value;
         var updatedPerson = {
             name: name,
             title: title,
             gender: gender,
             outsider: outsider,
-            isalive: isalive
+            isalive: isalive,
+            birthdeath: birthdeath
         }
         editPerson(updatedPerson);
     });
@@ -497,12 +492,13 @@ function attachEventListeners() {
         $('#selected-node').val('');
         $('#selected-id').val('');
         $('#new-nodelist').find('input:first').val('').parent().siblings().remove();
-        $('#node-type-panel').find('input').prop('checked', false);
-        $('#mode-type-panel').find('input').prop('checked', false);
-        $('#title').val('');
-        $('#gender').val('');
-        $('#outsider').val('');
-        $('#isalive').val('');
+        //$('#node-type-panel').find('input').prop('checked', false);
+        //$('#mode-type-panel').find('input').prop('checked', false);
+        //$('#title').val('');
+        //$('#gender').val('');
+        //$('#outsider').val('');
+        //$('#isalive').val('');
+        //$('#birthdeath').val('');
     });
 
     $('#editModal').on('hide.bs.modal', function (event) {

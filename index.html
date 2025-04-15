@@ -18,7 +18,7 @@
   <!-- <button data-bs-toggle="modal" data-bs-target="#addModal">Popup thêm</button> -->
   <button class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#editModal">Thông tin</button>
   <button type="button" id="btn-delete-nodes" class="btn btn-danger btn-sm">Xoá</button>
-  <div id="chart-legend">
+  <!-- <div id="chart-legend">
     <div id="chart-legend__title">Legend</div>
     <div class="chart-legend__item">
       <div class="chart-legend__item__color highlight-parent"></div>
@@ -32,7 +32,7 @@
       <div class="chart-legend__item__color highlight-siblings"></div>
       <div class="chart-legend__item__title">Siblings</div>
     </div>
-  </div>
+  </div> -->
   <!-- Modal -->
   <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
@@ -45,11 +45,11 @@
           <fieldset class="row mb-3" id="mode-type-panel">
             <legend class="col-form-label col-md-4 pt-0"></legend>
             <div class="col-md-8">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="mode-type" id="rd-add" value="add">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="mode-type" id="rd-add" value="add" checked>
                 <label class="form-check-label" for="rd-add">Thêm</label>
               </div>
-              <div class="form-check">
+              <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="mode-type" id="rd-edit" value="edit">
                 <label class="form-check-label" for="rd-edit">Sửa</label>
               </div>
@@ -88,8 +88,8 @@
               </div>
             </div>
           </fieldset>
-          <div class="row mb-3">
-            <label for="title" class="col-md-4 col-form-label">Chức</label>
+          <!-- <div class="row mb-3">
+            <label for="title" class="col-md-4 col-form-label">Chức danh</label>
             <div class="col-md-8">
               <select id="title" class="form-control">
                 <option value="">Chọn chức danh</option>
@@ -109,18 +109,17 @@
                 <option value="Chắt">Chắt</option>
               </select>
             </div>
-          </div>
+          </div> -->
           <div class="row mb-3">
             <label for="gender" class="col-md-4 col-form-label">Giới tính</label>
             <div class="col-md-8">
               <select id="gender" class="form-control">
-                <option value="">Chọn giới tính</option>
                 <option value="male">Nam</option>
                 <option value="female">Nữ</option>
               </select>
             </div>
           </div>
-          <div class="row mb-3">
+          <!-- <div class="row mb-3">
             <label for="outsider" class="col-md-4 col-form-label">Vợ chồng?</label>
             <div class="col-md-8">
               <select id="outsider" class="form-control">
@@ -129,18 +128,23 @@
                 <option value="true">Là vợ/chồng</option>
               </select>
             </div>
-          </div>
+          </div> -->
           <div class="row mb-3">
-            <label for="isalive" class="col-md-4 col-form-label">Còn sống?</label>
+            <label for="isalive" class="col-md-4 col-form-label">Sống/Chết</label>
             <div class="col-md-8">
               <select id="isalive" class="form-control">
-                <option value="">Còn sống?</option>
+                <!-- <option value="">Còn sống?</option> -->
                 <option value="true">Sống</option>
-                <option value="false">Mất</option>
+                <option value="false">Chết</option>
               </select>
             </div>
           </div>
-          
+          <div class="row mb-3">
+            <label for="isalive" class="col-md-4 col-form-label">Năm sinh - Năm mất</label>
+            <div class="col-md-8">
+              <input type="text" class="form-control mb-2" id="birthdeath">
+            </div>
+          </div>
           <div class="row mb-3">
             <label for="selected-node" class="col-md-4 col-form-label">Tên người cần thêm:</label>
             <div class="col-md-8">
@@ -161,61 +165,6 @@
       </div>
     </div>
   </div>
-
-  <!-- <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="addModalLabel">Thêm</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="form-container">
-            <input type="text" id="name" placeholder="Tên" class="form-control"><br>
-            <select id="title" class="form-control">
-              <option value="">Chọn chức danh</option>
-              <option value="Ông">Ông</option>
-              <option value="Bà">Bà</option>
-              <option value="Bác">Bác</option>
-              <option value="Cô">Cô</option>
-              <option value="Chú">Chú</option>
-              <option value="Thím">Thím</option>
-              <option value="Bố">Bố</option>
-              <option value="Mẹ">Mẹ</option>
-              <option value="Anh">Anh</option>
-              <option value="Chị">Chị</option>
-              <option value="Em">Em</option>
-              <option value="Con">Con</option>
-              <option value="Cháu">Cháu</option>
-              <option value="Chắt">Chắt</option>
-            </select><br>
-            <select id="gender" class="form-control">
-              <option value="">Chọn giới tính</option>
-              <option value="male">Nam</option>
-              <option value="female">Nữ</option>
-            </select><br>
-            <select id="outsider" class="form-control">
-              <option value="">Ngoài gia đình?</option>
-              <option value="false">Trong gia đình</option>
-              <option value="true">Ngoài gia đình</option>
-            </select><br>
-            <select id="isalive" class="form-control">
-              <option value="">Còn sống?</option>
-              <option value="true">Sống</option>
-              <option value="false">Mất</option>
-            </select><br>
-            <input type="text" class="form-control" id="parentId" placeholder="ID cha/mẹ (nếu có)"><br>
-            <input type="text" class="form-control" id="siblingId" placeholder="ID anh/chị/em (nếu có)"><br>
-
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button onclick="addPerson()" class="btn btn-primary">Thêm người</button>
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div> -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="js/jquery.orgchart.js"></script>
