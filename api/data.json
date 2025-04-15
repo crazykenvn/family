@@ -30,17 +30,19 @@
                       {
                         "id": "P002",
                         "name": "Sủng",
-                        "title": "Ông",
+                        "title": "",
                         "gender": "male",
                         "outsider": "",
                         "isalive": "false",
                         "children": [],
-                        "level": 3
+                        "level": 3,
+                        "birthdeath": "",
+                        "thutu": 1
                       },
                       {
                         "id": "P003",
                         "name": "Hiển",
-                        "title": "Bà",
+                        "title": "",
                         "gender": "female",
                         "outsider": "true",
                         "isalive": "false",
@@ -48,7 +50,7 @@
                           [
                             {
                               "id": "P005",
-                              "name": "Sỉnh",
+                              "name": " Sỉnh",
                               "title": "",
                               "gender": "male",
                               "outsider": "",
@@ -62,8 +64,39 @@
                                     "gender": "male",
                                     "outsider": "",
                                     "isalive": "",
-                                    "children": [],
-                                    "level": 5
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P031",
+                                          "name": "Hoa",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P032",
+                                          "name": "Trung",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
                                   },
                                   {
                                     "id": "P025",
@@ -73,7 +106,9 @@
                                     "outsider": "true",
                                     "isalive": "",
                                     "children": [],
-                                    "level": 5
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
                                   }
                                 ],
                                 [
@@ -84,8 +119,79 @@
                                     "gender": "male",
                                     "outsider": "",
                                     "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P033",
+                                          "name": " Trang",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P034",
+                                          "name": " Hà",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P035",
+                                          "name": " Ngân",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P036",
+                                          "name": "Đức",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P037",
+                                    "name": "Khoa",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
                                     "children": [],
-                                    "level": 5
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
                                   }
                                 ],
                                 [
@@ -96,40 +202,1847 @@
                                     "gender": "male",
                                     "outsider": "",
                                     "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P039",
+                                          "name": "Diệu",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P040",
+                                          "name": "Con trai",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P038",
+                                    "name": "Hoàng",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
                                     "children": [],
-                                    "level": 5
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ]
+                              ],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P041",
+                              "name": " Duyên",
+                              "title": "",
+                              "gender": "female",
+                              "outsider": "",
+                              "isalive": "",
+                              "children": [
+                                [
+                                  {
+                                    "id": "P047",
+                                    "name": "Con gái 1",
+                                    "title": "",
+                                    "gender": "",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
                                   }
                                 ],
                                 [
                                   {
-                                    "id": "P028",
-                                    "name": "test",
+                                    "id": "P048",
+                                    "name": "Quyên",
+                                    "title": "",
+                                    "gender": "",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P166",
+                                          "name": "Con 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P167",
+                                          "name": "Con 2",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P061",
+                                    "name": "Rinh",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P049",
+                                    "name": "Lụa",
+                                    "title": "",
+                                    "gender": "",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P110",
+                                          "name": "Triệu",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P111",
+                                          "name": "Trang",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P062",
+                                    "name": "Phúc",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P050",
+                                    "name": "Báu",
+                                    "title": "",
+                                    "gender": "",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P163",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P164",
+                                          "name": "Con trai 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P165",
+                                          "name": "Con gái 2",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P063",
+                                    "name": "An",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ]
+                              ],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            },
+                            {
+                              "id": "P051",
+                              "name": "Chồng",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "true",
+                              "isalive": "false",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 2
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P042",
+                              "name": " Nhuần",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "false",
+                              "children": [
+                                [
+                                  {
+                                    "id": "P053",
+                                    "name": "Hải",
                                     "title": "",
                                     "gender": "male",
                                     "outsider": "",
                                     "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P161",
+                                          "name": "Con trai 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P162",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P109",
+                                    "name": "Thuỷ",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
                                     "children": [],
-                                    "level": 5
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
                                   }
                                 ]
                               ],
-                              "level": 4
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            },
+                            {
+                              "id": "P052",
+                              "name": "Chồng",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "true",
+                              "isalive": "",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 2
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P043",
+                              "name": "Sính",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "",
+                              "children": [
+                                [
+                                  {
+                                    "id": "P055",
+                                    "name": "Vin",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P112",
+                                          "name": "Đức",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P113",
+                                          "name": "Hạnh",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P064",
+                                    "name": "Sinh",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P056",
+                                    "name": "Vín",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P114",
+                                          "name": "Hoài",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P115",
+                                          "name": "Hùng",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P065",
+                                    "name": "Huynh",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P057",
+                                    "name": "Vui",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P116",
+                                          "name": "Tuấn",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P117",
+                                          "name": "Minh",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P066",
+                                    "name": "Huyên",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P058",
+                                    "name": "Vẻ",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P118",
+                                          "name": "Dũng",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P119",
+                                          "name": "Kiên",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P067",
+                                    "name": "Trung",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P059",
+                                    "name": "Bé",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P120",
+                                          "name": "Thảo",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P121",
+                                          "name": "Long",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P068",
+                                    "name": "Trọng",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P060",
+                                    "name": "Vương",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P122",
+                                          "name": "Lan Nhi",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P123",
+                                          "name": "An Nhi",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P069",
+                                    "name": "An",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ]
+                              ],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            },
+                            {
+                              "id": "P054",
+                              "name": "Viềng",
+                              "title": "",
+                              "gender": "female",
+                              "outsider": "true",
+                              "isalive": "",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 2
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P044",
+                              "name": " Sánh",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "false",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P045",
+                              "name": "Sứng",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "",
+                              "children": [
+                                [
+                                  {
+                                    "id": "P071",
+                                    "name": "Sưởng",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P124",
+                                          "name": "Con trai 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P125",
+                                          "name": "Con trai 2",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P077",
+                                    "name": "Duyên",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P072",
+                                    "name": "Minh",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P126",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P127",
+                                          "name": "Con gái 2",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P078",
+                                    "name": "Hải",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P073",
+                                    "name": "Ly",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P128",
+                                          "name": "Con trai 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P129",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P079",
+                                    "name": "Tú",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ]
+                              ],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            },
+                            {
+                              "id": "P070",
+                              "name": "Lưu",
+                              "title": "",
+                              "gender": "female",
+                              "outsider": "true",
+                              "isalive": "",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 2
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P046",
+                              "name": "Sướng",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "",
+                              "children": [
+                                [
+                                  {
+                                    "id": "P075",
+                                    "name": "Dung",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "false",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P130",
+                                          "name": "Khoa",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P131",
+                                          "name": "Giang",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P080",
+                                    "name": "Khắc",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P076",
+                                    "name": "Linh",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P132",
+                                          "name": "Hưng",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P133",
+                                          "name": "Phát",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P134",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P135",
+                                          "name": "Con gái 2",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P081",
+                                    "name": "Vui",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ]
+                              ],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            },
+                            {
+                              "id": "P074",
+                              "name": "Vân",
+                              "title": "",
+                              "gender": "female",
+                              "outsider": "true",
+                              "isalive": "",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 2
                             }
                           ]
                         ],
-                        "level": 3
+                        "level": 3,
+                        "birthdeath": "1930-2009",
+                        "thutu": 2
+                      },
+                      {
+                        "id": "P030",
+                        "name": "Ngẩy",
+                        "title": "",
+                        "gender": "female",
+                        "outsider": "true",
+                        "isalive": "false",
+                        "children": [
+                          [
+                            {
+                              "id": "P082",
+                              "name": "Tín",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "",
+                              "children": [
+                                [
+                                  {
+                                    "id": "P088",
+                                    "name": " Huế",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P136",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P137",
+                                          "name": "Con gái 2",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P138",
+                                          "name": "Con gái 3",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P139",
+                                          "name": "Con gái 4",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P140",
+                                          "name": "Con trai 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P099",
+                                    "name": "Liêm",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P089",
+                                    "name": " Huê",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P141",
+                                          "name": "Con trai 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P142",
+                                          "name": "Con trai 2",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P100",
+                                    "name": "Chồng",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P090",
+                                    "name": " Hái",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P143",
+                                          "name": "Con 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P144",
+                                          "name": "Con 2",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P101",
+                                    "name": "Chồng",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P091",
+                                    "name": " Trâm",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P145",
+                                          "name": "Con 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P146",
+                                          "name": "Con 2",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P102",
+                                    "name": "Chồng",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P092",
+                                    "name": "Thành",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P147",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P103",
+                                    "name": "Vợ",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ]
+                              ],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P083",
+                              "name": "Sáng",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "",
+                              "children": [
+                                [
+                                  {
+                                    "id": "P093",
+                                    "name": "Khao",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P148",
+                                          "name": "Con trai 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P149",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P104",
+                                    "name": "Thảo",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P094",
+                                    "name": " Khuyên",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P150",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P151",
+                                          "name": "Con gái 2",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P152",
+                                          "name": "Con gái 3",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P105",
+                                    "name": "Bao",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ]
+                              ],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P084",
+                              "name": " Ngẩy",
+                              "title": "",
+                              "gender": "female",
+                              "outsider": "",
+                              "isalive": "false",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P085",
+                              "name": " Suốt",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "false",
+                              "children": [],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P086",
+                              "name": "Sao",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "",
+                              "children": [
+                                [
+                                  {
+                                    "id": "P095",
+                                    "name": "Ban",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P153",
+                                          "name": "Bảo",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P154",
+                                          "name": "Long",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P155",
+                                          "name": "An",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P096",
+                                    "name": "Bé",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P156",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P157",
+                                          "name": "Con gái 2",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P106",
+                                    "name": "Vĩnh",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ]
+                              ],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            }
+                          ],
+                          [
+                            {
+                              "id": "P087",
+                              "name": "Soi",
+                              "title": "",
+                              "gender": "male",
+                              "outsider": "",
+                              "isalive": "",
+                              "children": [
+                                [
+                                  {
+                                    "id": "P097",
+                                    "name": "Khiêm",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P158",
+                                          "name": "Con trai 1",
+                                          "title": "",
+                                          "gender": "male",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ],
+                                      [
+                                        {
+                                          "id": "P159",
+                                          "name": " Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P107",
+                                    "name": "Vợ",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ],
+                                [
+                                  {
+                                    "id": "P098",
+                                    "name": "Khương",
+                                    "title": "",
+                                    "gender": "male",
+                                    "outsider": "",
+                                    "isalive": "",
+                                    "children": [
+                                      [
+                                        {
+                                          "id": "P160",
+                                          "name": "Con gái 1",
+                                          "title": "",
+                                          "gender": "female",
+                                          "outsider": "",
+                                          "isalive": "",
+                                          "children": [],
+                                          "level": 6,
+                                          "birthdeath": "",
+                                          "thutu": 1
+                                        }
+                                      ]
+                                    ],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 1
+                                  },
+                                  {
+                                    "id": "P108",
+                                    "name": "Vợ",
+                                    "title": "",
+                                    "gender": "female",
+                                    "outsider": "true",
+                                    "isalive": "",
+                                    "children": [],
+                                    "level": 5,
+                                    "birthdeath": "",
+                                    "thutu": 2
+                                  }
+                                ]
+                              ],
+                              "level": 4,
+                              "birthdeath": "",
+                              "thutu": 1
+                            }
+                          ]
+                        ],
+                        "level": 3,
+                        "birthdeath": "",
+                        "thutu": 3
                       }
                     ]
                   ],
-                  "level": 2
+                  "level": 2,
+                  "birthdeath": "",
+                  "thutu": 1
                 }
               ]
             ],
-            "level": 1
+            "level": 1,
+            "birthdeath": "",
+            "thutu": 1
           }
         ]
       ],
-      "level": 0
+      "level": 0,
+      "birthdeath": "",
+      "thutu": 1
     }
   ]
 ]
