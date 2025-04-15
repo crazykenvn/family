@@ -650,7 +650,36 @@
                                           "gender": "female",
                                           "outsider": "",
                                           "isalive": "",
-                                          "children": [],
+                                          "children": [
+                                            [
+                                              {
+                                                "id": "P173",
+                                                "name": "Con trai 1",
+                                                "title": "",
+                                                "gender": "male",
+                                                "outsider": "",
+                                                "isalive": "",
+                                                "children": [],
+                                                "level": 7,
+                                                "birthdeath": "",
+                                                "thutu": 1
+                                              }
+                                            ],
+                                            [
+                                              {
+                                                "id": "P174",
+                                                "name": "Con trai 2",
+                                                "title": "",
+                                                "gender": "male",
+                                                "outsider": "",
+                                                "isalive": "",
+                                                "children": [],
+                                                "level": 7,
+                                                "birthdeath": "",
+                                                "thutu": 1
+                                              }
+                                            ]
+                                          ],
                                           "level": 6,
                                           "birthdeath": "",
                                           "thutu": 1
